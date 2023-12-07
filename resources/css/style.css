@@ -8,8 +8,13 @@
     box-sizing:border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family:'Titilium', sans-serif;
+    text-rendering: optimizeLegibility;
 }
 
 ul li {
@@ -19,8 +24,15 @@ ul li {
 /* HEADING */
 
 h1{
-    font-size: 43px;
+    font-size: 4.3rem;
     color: #fff;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+    visibility: hidden;
 }
 
 /* =================== */
@@ -28,8 +40,31 @@ h1{
 /* =================== */
 
 .row {
-    max-width: 1100px;
+    max-width: 114.0rem;
     margin:auto;
+}
+
+section {
+    padding: 8rem 0;
+}
+
+h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    margin-bottom: 2em;
+    color: #fff
+}
+
+h2::after {
+    content: '';
+    display: block;
+    height: .4rem;
+    background: white;
+    width: 8.5rem;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 /* BUTTON */
@@ -37,15 +72,20 @@ h1{
 .btn:visited,
 .btn {
     background: #333;
-    border-bottom: 3px solid #000;
+    border-bottom: .3rem solid #000;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 15px 60px;
-    border-radius: 3px;
+    padding: 1.5rem 6rem;
+    border-radius: 0.3rem;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 4.0rem;
+    font-size: 1.6rem;
 }
+
+/* paragraph */
+
+
 
 /* =================== */
 /* HEADER SECTION */
@@ -60,9 +100,9 @@ header {
     Position: relative;
 }
 .logo {
-    height: 35px;
+    height: 3.5rem;
     width: auto;
-    margin-top: 35px;
+    margin-top: 3.5rem;
     float: left;
 }
 
@@ -70,12 +110,12 @@ header {
 
 .main-nav {
     float:right;
-    margin-top: 40px;
+    margin-top: 4.0rem;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 10px
+    margin-left: 1rem;
 }
 
 .main-nav li a:link,
@@ -84,10 +124,10 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     background: #643a7900;
-    padding: 6px 16px;
-    border-radius: 3px;
+    padding: 0.6rem 1.6rem;
+    border-radius: 0.3rem;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
     transition: 0.3s;
 }
 
@@ -97,12 +137,12 @@ header {
 }
 
 .main-nav li:first-child {
-    margin-left: 0px;
+    margin-left: 0rem;
 }
 
 .active {
     background: #643a79;
-    border-radius:3px;
+    border-radius:0.3rem;
 }
 
 .hero-text-box {
@@ -117,4 +157,14 @@ header {
 .btn-hero:visited {
     background: #eb7d4b;
     border-color: #c86a40;
+}
+
+/* =================== */
+/* SERVICES SECTION */
+/* =================== */
+
+.services-section {
+    color: #fff;
+    text-align: center;
+    background: #17c2a4;
 }
