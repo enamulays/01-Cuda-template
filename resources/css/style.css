@@ -201,3 +201,28 @@ header {
     margin-top: 4.5rem;
     margin-bottom: 3.5rem;
 }
+
+/* =================== */
+/* TEAM SECTION */
+/* =================== */
+
+.team-section {
+    background: #e7f1f8;
+    text-align: center;
+}
+
+.team-section h2 {
+    color: #3c4716;
+}
+
+.team-section h2::after {
+    background: #c8d9e5;
+}
+
+.team-member {
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+    height: 15rem;
+    width:15rem;
+    border-radius: 50%;
+}
