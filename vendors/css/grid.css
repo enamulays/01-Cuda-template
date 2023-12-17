@@ -10,15 +10,15 @@
 /*  GROUPING  ============================================================================= */
 
 
-.group:before,
-.group:after {
+.row:before,
+.row:after {
     content:"";
     display:table;
 }
-.group:after {
+.row:after {
     clear:both;
 }
-.group {
+.row {
     zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 

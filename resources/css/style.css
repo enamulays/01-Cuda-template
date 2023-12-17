@@ -10,6 +10,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -72,6 +73,8 @@ h2::after {
 h3 {
     font-size: 2.4rem;
     text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
 }
 
 .box p {
@@ -207,8 +210,11 @@ header {
 /* =================== */
 
 .team-section {
-    background: #e7f1f8;
+    background: linear-gradient(#e7f1f8e0, #e7f1f8e5), url('img/team_section.jpg');
     text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .team-section h2 {
@@ -225,4 +231,49 @@ header {
     height: 15rem;
     width:15rem;
     border-radius: 50%;
+}
+
+.team-section h3 {
+    color: #27283d;
+}
+
+.role {
+    color: #44bee8;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.team-section .box p {
+    color: #3c4761;
+}
+
+.social-link {
+    margin-top: 4.5rem;
+}
+
+.social-link ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.social-link ul li a:link {
+    color: #fff;
+}
+
+.social-link ul li a:link i::before {
+    background: #bdd1df;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.social-link ul li a:hover i::before {
+    background: #393939;
+    transform: rotate(360deg);
+    transition: .5s;
 }

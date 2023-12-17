@@ -13,6 +13,7 @@
     <!-- VENDORS FILES -->
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/animated-circle.css">
     <!-- RESOURCES FILES -->
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/responsive.css">
@@ -32,8 +33,8 @@
                 <ul class="main-nav">
                     <li class="active"><a href="#">home</a></li>
                     <li><a href="#service">service</a></li>
-                    <li><a href="#">work</a></li>
-                    <li><a href="#">blog</a></li>
+                    <li><a href="#teams">team</a></li>
+                    <li><a href="#skill">skill</a></li>
                     <li><a href="#">contact</a></li>
                 </ul>
             </div>
@@ -83,7 +84,7 @@
 
     <!-- START TEAM SECTION -->
 
-    <section class="team-section clearfix">
+    <section class="team-section clearfix" id="teams">
         <div class="row">
             <h2>MEET OUR BEAUTIFUL TEAM</h2>
             <p class="little-discription">We are a small team of designers and developers, who help brands with big ideas.</p>
@@ -92,7 +93,7 @@
             <div class="col span_1_of_4 box">
                 <img src="resources/img/1.jpg" class="team-member">
                 <h3>ANNE HATHAWAY</h3>
-                <span class="rol">CEO / Marketing Guru</span>
+                <span class="role">CEO / Marketing Guru</span>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
                 <div class="social-link">
                     <ul>
@@ -105,9 +106,9 @@
             </div>
             <div class="col span_1_of_4 box">
                 <img src="resources/img/2.jpg" class="team-member">
-                <h3>ANNE HATHAWAY</h3>
-                <span class="rol">CEO / Marketing Guru</span>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                <h3>Kate Uptonis</h3>
+                <span class="role">Creative Director</span>
+                <p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
                 <div class="social-link">
                     <ul>
                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -119,9 +120,9 @@
             </div>
             <div class="col span_1_of_4 box">
                 <img src="resources/img/3.jpg" class="team-member">
-                <h3>ANNE HATHAWAY</h3>
-                <span class="rol">CEO / Marketing Guru</span>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                <h3>Olivia Wilde</h3>
+                <span class="role">Lead Designer</span>
+                <p>Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
                 <div class="social-link">
                     <ul>
                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -134,8 +135,8 @@
             <div class="col span_1_of_4 box">
                 <img src="resources/img/4.jpg" class="team-member">
                 <h3>ANNE HATHAWAY</h3>
-                <span class="rol">CEO / Marketing Guru</span>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                <span class="role">SEO / Developer</span>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                 <div class="social-link">
                     <ul>
                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -150,11 +151,34 @@
 
     <!-- END TEAM SECTION -->
 
+    <!-- START SKILL SECTION -->
+
+    <section class="skill-section" id="skill">
+        <div class="row">
+            <h2>WE GOT SKILLS!</h2>
+            <p class="little-discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress"                           data-percentage="82" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">82%</text>
+                  </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- END SKILL SECTION -->
+
 
     <!--JS Script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="vendors/js/html5shiv.min.js">
     </script>
     <script src="vendors/js/respond.matchmedia.addListener.min.js"></script>
     <script src="vendors/js/selectivizr.js"></script>
+    <script src="vendors/js/animated circle.js"></script>
+    <script src="resources/js/main.js"></script>
 </body>
 </html>
