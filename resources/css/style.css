@@ -17,6 +17,7 @@ body {
     font-family:'Titilium', sans-serif;
     text-rendering: optimizeLegibility;
     line-height: 1.3;
+    font-size: 1.6rem;
 }
 
 ul li {
@@ -276,4 +277,52 @@ header {
     background: #393939;
     transform: rotate(360deg);
     transition: .5s;
+}
+
+/* =================== */
+/* SKILLS SECTION */
+/* =================== */
+
+.skill-section {
+    background: linear-gradient(rgba(185, 192, 121, 0.87), rgba(185, 192, 121, 0.87)), url('img/skill_section.jpg');
+    color: #3c4761;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.skill-section h2,
+.skill-section h3 {
+    color: #3c4761;
+}
+
+.skill-section h2:after {
+    background: #dfe8ed;
+}
+
+.skill-section .box {
+    margin-top: 4.5rem;
+}
+
+svg.radial-progress circle{
+    stroke-width: 5;
+}
+
+svg.radial-progress text {
+    fill: #3c4761;
+    font-size: 1.5rem;
+}
+
+svg.web-design circle {
+    stroke: #30bae7;
+}
+svg.html-css circle {
+    stroke: #d74680;
+}
+svg.graphic-design circle {
+    stroke: #15c7a8;
+}
+svg.ui-ux circle {
+    stroke: #eb7d4b;
 }
