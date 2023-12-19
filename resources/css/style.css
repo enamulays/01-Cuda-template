@@ -78,6 +78,13 @@ h3 {
     color: #fff;
 }
 
+h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+}
+
 .box p {
     font-size: 1.6rem;
     font-weight: 300;
@@ -325,4 +332,59 @@ svg.graphic-design circle {
 }
 svg.ui-ux circle {
     stroke: #eb7d4b;
+}
+
+/* =================== */
+/* PORTFOLIO SECTION */
+/* =================== */
+
+.portfolio-section {
+    background: linear-gradient(#ffdd99ee, #ffdd99e1), url('img/portfolio-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    color: #3c4761;
+}
+
+.portfolio-section h2:after {
+    background-color: #e5c37f;
+}
+
+.portfolio-filter {
+    margin: 4.5rem 0;
+}
+
+.portfolio-filter button {
+    background: #ebc985;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border: 0; 
+    border-radius: .5rem;
+    text-transform: uppercase;
+    color: #3c4761;
+    margin: 0 .5rem
+}
+
+.portfolio-filter button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0.1rem 0.4rem #455372d3;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 30rem;
+}
+
+.portfolio-section .col:nth-child(3) {
+    margin:left;
+}
+
+.portfolio-section .btn-load-more {
+    background: #17c2a4;
+    border-color: #14a58c;
 }
