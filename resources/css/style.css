@@ -388,3 +388,11 @@ svg.ui-ux circle {
     background: #17c2a4;
     border-color: #14a58c;
 }
+
+/* =================== */
+/* TESTIMONIAL SECTION */
+/* =================== */
+
+.testimonial {
+    background: rgba(80, 102, 21, 0.295);
+}
