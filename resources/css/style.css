@@ -90,6 +90,7 @@ h4 {
     font-weight: 300;
     margin-top: 2rem;
     padding: 1%;
+    text-align: justify;
 }
 
 /* BUTTON */
@@ -394,5 +395,61 @@ svg.ui-ux circle {
 /* =================== */
 
 .testimonial {
-    background: rgba(80, 102, 21, 0.295);
+    background: linear-gradient(#d74680ec, #d74680ec), url('img/testimonial.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+.testimonial .little-discription {
+     text-align: center;
+     color: #f4cedd;
+}
+
+.testimonial .col:nth-child(3) {
+    margin-left: 0;
+}
+
+.testimonial .col:nth-child(1),
+.testimonial .col:nth-child(2) {
+    margin-top: 4rem;
+}
+
+.testimonial .col:nth-child(3),
+.testimonial .col:nth-child(4) {
+    margin-top: 8rem;
+}
+
+.client-photo {
+    width: 20%;
+}
+
+.client-photo img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 10rem;
+    margin-bottom: 3rem;
+    float: left;
+}
+
+.client-review {
+    float:left;
+    width:35rem;
+    text-align: justify;
+}
+
+.client-review p {
+    font-size: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    color: #fae6ee;
+    font-style: italic;
+}
+
+.client-review .role {
+    color: #f2ab91;
+}
+
+/* =================== */
+/* CONTACT SECTION */
+/* =================== */
