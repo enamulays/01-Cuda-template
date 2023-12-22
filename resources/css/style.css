@@ -382,12 +382,16 @@ svg.ui-ux circle {
 }
 
 .portfolio-section .col:nth-child(3) {
-    margin:left;
+    margin-left: 0;
 }
 
 .portfolio-section .btn-load-more {
     background: #17c2a4;
     border-color: #14a58c;
+}
+
+.portfolio-section .mixitup-control-active {
+    background: rgb(255, 255, 255);
 }
 
 /* =================== */
@@ -453,3 +457,59 @@ svg.ui-ux circle {
 /* =================== */
 /* CONTACT SECTION */
 /* =================== */
+
+.contact-section {
+    background: linear-gradient(#3c5399e1, #3c5399e3), url('img/contac_section.jpg');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact-section h2::after {
+    background-color: #273a71;
+}
+
+.contact-section .little-discription {
+    font-size: 1.8rem;
+    color: #ebedf3;
+    text-align: center;
+}
+
+.contact-section form {
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.contact-section .row .col input[type="email"] {
+    margin-left: 1%;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    background: #273a71;
+    border: .1rem solid #273a71;
+    width: 100%;
+    padding: 1.5rem 2.5rem;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    margin: .5rem 0;
+}
+
+.contact-section form ::placeholder {
+    color: #fff;
+    opacity: .4;
+}
+
+.contact-section .btn-submit {
+    border: 0;
+    border-bottom: .3rem solid #299ec5;
+    background: #30bae7;
+}
+
+.contact-section .btn-submit:hover {
+    cursor: pointer;
+}
